@@ -3,11 +3,17 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\BilSteJo\\Documents\\Arduino\\libraries\\IFTTTMaker\\src",
                 "C:\\Users\\BilSteJo\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
-                "C:\\Users\\BilSteJo\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.0\\**"
+                "C:\\Users\\BilSteJo\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.0\\**",
+                "C:\\Program Files (x86)\\Arduino\\libraries\\**",
+                "C:\\Users\\BilSteJo\\Documents\\Arduino\\libraries\\**"
             ],
             "forcedInclude": [],
-            "intelliSenseMode": "msvc-x64"
+            "intelliSenseMode": "msvc-x64",
+            "defines": [
+                "USBCON"
+            ]
         }
     ],
     "version": 4
