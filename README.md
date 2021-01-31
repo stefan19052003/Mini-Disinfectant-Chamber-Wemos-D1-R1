@@ -9,9 +9,9 @@ This code will provide a simple arduino mechanism to run a mini disinfectant cha
 5. Ultrasonic Sensor(HV-SR04)
 
 ## Circuit Diagram
-
+![alt text](https://i.imgur.com/NIf5nXh.png)
 
 ## Contributor
-William Nathan
-Stefan Rafael Muljadi
-Immanuel Krisliandi
+- William Nathan
+- Stefan Rafael Muljadi
+- Immanuel Krisliandi
