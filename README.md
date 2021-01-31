@@ -11,6 +11,14 @@ This code will provide a simple arduino mechanism to run a mini disinfectant cha
 ## Circuit Diagram
 ![alt text](https://i.imgur.com/NIf5nXh.png)
 
+## Frame Design
+We have several prototypes from different materials but we ended up using acrylic sheet to make the final frame. 
+### 3D Design Render
+![alt text](https://i.imgur.com/8aEHvI4.png)
+### Final Frame
+![alt text](https://i.imgur.com/lvVbiEq.jpg)
+![alt text](https://i.imgur.com/fS3uBbo.jpg)
+
 ## Contributor
 - William Nathan
 - Stefan Rafael Muljadi
