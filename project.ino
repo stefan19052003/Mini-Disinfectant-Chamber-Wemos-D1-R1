@@ -11,8 +11,8 @@ int us_trig = D3;
 int waktu;
 int distance;
 
-char ssid[] = "Jonathan Lt. 2";
-char pass[] = "11223344A";
+char ssid[] = "Your WiFi SSID";
+char pass[] = "Your WiFi Password";
 
 // Replace with your unique IFTTT URL resource
 const char* resource = "/trigger/order_arrived/with/key/d7TxO2d7eF45kcMOU_5Ce4MrOoJlEHQ3-1zMAKTts9H";
@@ -58,27 +58,19 @@ digitalWrite(us_trig, LOW);
 waktu = pulseIn(us_echo, HIGH);  //dalam microsecond
 distance = (waktu * 0.034) / 2;    //dalam cm
 
-
 if (distance <= 5) {
     webIFTTTRequest();
     digitalWrite(relay, HIGH);
-    digitalWrite(LED_BUILTIN, HIGH);
     delay(3000);
     digitalWrite(relay, LOW);
-    digitalWrite(LED_BUILTIN, LOW);
     int k = readNow();
     while(k <= 5){
-        Serial.print("ini K");
-        Serial.println(k);
-        Serial.println(readNow());
         delay(1000);
         k = readNow();
-        Serial.println(k);
     }
 
 }else{
     digitalWrite(relay, LOW);
-    digitalWrite(LED_BUILTIN, LOW);
     delay(100);
 } 
 }
