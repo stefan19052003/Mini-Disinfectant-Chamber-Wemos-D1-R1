@@ -20,7 +20,7 @@ We have several prototypes from different materials but we ended up using acryli
 ![alt text](https://i.imgur.com/fS3uBbo.jpg)
 
 ## Additional Feature
-We connect the program with IFTTT(If This Then Than) Webhook services to launch an push notification in the IFTTT smartphone app. We utilize MDevolution's code to use webhook service with ESP8266 from https://gist.github.com/MDevolution/a2ca7257922a859ba24554255b21b7d1.
+We connect the program with IFTTT(If This Then That) Webhook services to launch an push notification in the IFTTT smartphone app. We utilize MDevolution's code to use webhook service with ESP8266 from https://gist.github.com/MDevolution/a2ca7257922a859ba24554255b21b7d1.
 
 ## Contributor
 - William Nathan
