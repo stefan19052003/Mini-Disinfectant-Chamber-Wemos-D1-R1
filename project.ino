@@ -15,7 +15,7 @@ char ssid[] = "Your WiFi SSID";
 char pass[] = "Your WiFi Password";
 
 // Replace with your unique IFTTT URL resource
-const char* resource = "/trigger/order_arrived/with/key/d7TxO2d7eF45kcMOU_5Ce4MrOoJlEHQ3-1zMAKTts9H";
+const char* resource = "/trigger/your-ifttt-webhook-url";
 
 
 // Maker Webhooks IFTTT
