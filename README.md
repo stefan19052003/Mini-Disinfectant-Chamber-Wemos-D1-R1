@@ -19,6 +19,14 @@ We have several prototypes from different materials but we ended up using acryli
 ![alt text](https://i.imgur.com/lvVbiEq.jpg)
 ![alt text](https://i.imgur.com/fS3uBbo.jpg)
 
+## Make your own
+1. Prepare every components needed.
+2. Build your own chamber frame.
+3. Adjust the variable inside the code(pin number and WiFi SSID and password)
+4. Deploy the arduino code to your own microcontroller, the code should work for every arduino based microcontroller. 
+5. Add your own customization to the code to improve the usage of the chamber. 
+
+
 ## Additional Feature
 We connect the program with IFTTT(If This Then That) Webhook services to launch an push notification in the IFTTT smartphone app. We utilize MDevolution's code to use webhook service with ESP8266 from https://gist.github.com/MDevolution/a2ca7257922a859ba24554255b21b7d1.
 
